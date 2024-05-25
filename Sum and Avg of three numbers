@@ -1,0 +1,15 @@
+//sum and Average of three numbers
+
+#include <stdio.h>
+
+int main()
+{
+int a,b,c,sum,avg;
+printf("enter any three values:"); 
+scanf("%d%d%d",&a,&b,&c);
+Sum=a+b+c;
+avg=sum/3;
+printf("\nsum:%d",sum);
+printf("\naverage:%d",avg);
+return 0;
+}
