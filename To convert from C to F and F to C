@@ -1,0 +1,26 @@
+// To convert Fahrenheit to Celsius and vice versa 
+
+#include<stdio.h> 
+
+int main()
+{
+int a,c;
+float f;
+printf("enter 0 to convert from F to c \n enter 1 to convert from c to F");
+scanf("%d",&a);
+if(a==0)
+{
+printf("enter f value:");
+scanf("%f",&f);
+c=5*((f-32)/9);
+printf("c:%d",c);
+}
+else
+{
+printf("enter c value:");
+scanf("%d",&c);
+f=((9*c)/5)+32;
+printf("f:%f",f);
+}
+return 0;
+}
