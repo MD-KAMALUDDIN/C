@@ -1,0 +1,14 @@
+//To find the square root of a given number 
+
+#include<stdio.h>
+#include<math.h> 
+
+int main()
+{
+double sq,n; 
+printf("enter any value:");
+scanf("%lf",&n); 
+sq=sqrt(n);
+printf("square root of given number: %lf",sq); 
+return 0;
+}
