@@ -1,0 +1,16 @@
+//Area of triangle by heron's formula 
+
+#include<stdio.h>
+#include<math.h>
+
+int main()
+{
+int a,b,c;
+double s,d;
+printf("enter lengths of all the three sides:");
+scanf("%d%d%d",&a,&b,&c);
+s=(a+b+c)/2; 
+d=sqrt((s-a)*(s-b)*(s-c));
+printf("Area of triangle:%lf",d);
+return 0;
+}
