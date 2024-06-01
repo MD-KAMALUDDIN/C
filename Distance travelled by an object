@@ -1,0 +1,13 @@
+//distance travelled by an object when velocity and time are known 
+
+#include<stdio.h>
+
+int main()
+{
+int d,v,t;
+printf("enter velocity and time values:");
+scanf("%d%d",&v,&t);
+d=v*t;
+printf("distance travelled:%d",d);
+return 0;
+}
