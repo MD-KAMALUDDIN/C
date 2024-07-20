@@ -1,0 +1,21 @@
+#include<stdio.h>
+
+int main()
+{
+ int max,min,a,b,c;
+ printf("enter any three values: ");
+ scanf("%d%d%d",&a,&b,&c);
+ if(a>b)
+  {
+    max=a>c?a:c;
+    min=c>b?b:c;
+  }
+ else
+  {
+    max=b>c?b:c;
+    min=c>a?a:c;
+  }
+ printf("\n maximum is %d",max);
+ printf("\n minimum is %d",min);
+ return 0;
+}
