@@ -1,0 +1,17 @@
+//increment and decrement operators
+
+#include <stdio.h>
+
+int main()
+{
+    int i,j;
+    printf("enter i value:");
+    scanf("%d",&i);
+    printf("for increment enter 0 and \n for decrement enter 1:");
+    scanf("%d",&j);
+    if(j==0)
+    printf("%d",++i);
+    else
+    printf("%d",--i);
+    return 0;
+}
