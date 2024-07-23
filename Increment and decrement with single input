@@ -8,9 +8,9 @@ int main()
     scanf("%d",&i);
     j=i;
     i++;
-    printf("%d",i);
+    printf("increment of i:%d",i);
     i=j;
     i--;
-    printf("\n %d",i);
+    printf("\n decrement of i:%d",i);
     return 0;
 }
