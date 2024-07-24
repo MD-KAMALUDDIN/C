@@ -1,0 +1,23 @@
+//performing all the four operations of Increment and decrement 
+
+#include <stdio.h>
+int main() {
+    int x,y,z,w;
+    int a;
+    printf("enter any value:");
+    scanf("%d",&x);
+    y=x;
+    z=x;
+    w=x;
+    a= --x;
+    printf("\nPre-decrement Operation:");
+    printf("%d", a); 
+    int b = y--;
+    printf("\nPost-decrement Operation");
+    printf("%d", b); 
+    int c = ++z;
+    printf("\nPre-increment operation:%d",c);
+    int d = w++;
+    printf("\nPost-increment operation:%d",d);
+    return 0;
+}
