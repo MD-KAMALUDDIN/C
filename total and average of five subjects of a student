@@ -1,0 +1,16 @@
+//total and average of a student in five subjects
+
+#include<stdio.h>
+
+int main()
+{
+ int a,b,c,d,e;
+ float tot,avg;
+ printf("enter the marks of all the subjects:");
+ scanf("%d%d%d%d%d",&a,&b,&c,&d,&e);
+ tot=(a+b+c+d+e);
+ avg=tot/5;
+printf("\n total:%f",tot);
+printf("\n average:%f",avg);
+return 0;
+}
