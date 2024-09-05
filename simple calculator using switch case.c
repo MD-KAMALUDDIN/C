@@ -8,7 +8,7 @@ int main()
     printf("\n Enter any two values:");
     scanf("%d%d",&a,&b);
     printf("\n Enter the operation:");
-    scanf(" %c",&ch);
+    scanf(" %c",&ch);// Note the space before %c
     switch(ch)
     {
     case '+':
