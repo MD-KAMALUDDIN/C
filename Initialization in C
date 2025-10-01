@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+void main() {
+    int a=1;  //store 1 to 'a' variable of interger type
+    float b=2.1;  //store 2.1 to 'b' variable of float type
+    char ch = 's';  //store s to 'ch' variable of character type 
+    double d = 2237.73;  //store 2237.73 'd' variable of double type 
+    printf(" int value:%d", a);  //print values stored in a
+    printf("\n float value:%f", b);  //print values stored in b
+    printf("\n char value:%c", ch);  //print values stored in ch
+    printf("\n double value:%lf", d);  //print values stored in d
+}
