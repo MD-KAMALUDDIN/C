@@ -1,0 +1,7 @@
+#include <stdio.h>
+
+void main() {
+    int a=123;  //store 123 in a
+    printf("100<%d<200: %d", a, 100<a<200);  //comaparing in chaining process
+    
+}
