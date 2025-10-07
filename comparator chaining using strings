@@ -1,0 +1,10 @@
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+    char f[] = "apple";
+    printf("%d\n", strcmp(f, "apple") == 0);
+    printf("%d\n", strcmp(f, "banana") == 0);
+    printf("%d", strcmp(f, "banana")<0);
+    return 0;
+}
