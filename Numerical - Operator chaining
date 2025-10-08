@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+    int a=5;
+    printf("%d==5:%d\n", a, a==5);//compare a with 5
+    printf("%d>3:%d\n", a, a>3);//compare a with 3
+    printf("%d<3:%d\n", a, a<4);//compare a with 4
+    printf("%d>=5:%d\n", a, a>=5);//compare a with 5
+
+    return 0;
+}
