@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    int r,c;
+    float sq;
+    r = 5%3;
+    printf("%d\n", r);
+    c = pow(2,3);
+    printf("%d\n", c);
+    sq = sqrt(2);
+    printf("%f", sq);
+    return 0;
+}
