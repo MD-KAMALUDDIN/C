@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main() {
+   float apple= 2, apple_price= 3.5, total_price, banana= 3,banana_price= 4;
+   total_price = apple*apple_price;
+   printf("Total Price:%f\n", total_price);
+   total_price += banana*banana_price;
+   printf("Total Price:%f", total_price);
+    return 0;
+}
