@@ -1,0 +1,9 @@
+#include <iostream>
+
+int main() {
+   int a=4;
+   float b=56.0;
+   char c='s';
+   double d= 23.12;
+   return 0;
+}
