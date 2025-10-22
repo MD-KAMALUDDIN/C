@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main() {
+    int a=5;
+    float b=0.23876;
+    double d=23.2380986;
+    printf("%d,%f,%lf",a,b,d);
+    return 0;
+}
