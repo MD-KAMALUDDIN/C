@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main() {
+    if(5>2)
+    {
+        printf("Your Right!");
+    }
+    return 0;
+}
