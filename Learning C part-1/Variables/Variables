@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main() {
+    char s[]="Hello world";
+    printf("%s", s);
+    int a=123;
+    printf("\n%d", a);
+
+    return 0;
+}
