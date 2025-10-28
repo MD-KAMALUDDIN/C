@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    int x=6;
+    printf("%d", x);
+    int my_variable=7;
+    printf("\n%d", my_variable);
+    int _my=5;
+    printf("\n%d", _my);
+    //int 7x=7; invalid
+    //int x!y=7; invalid
+    return 0;
+}
