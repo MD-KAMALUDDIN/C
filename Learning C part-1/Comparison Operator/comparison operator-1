@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main() {
+    int p=50,m=120,c;
+    c = m>=p;
+    printf("%d", c);
+
+    return 0;
+}
