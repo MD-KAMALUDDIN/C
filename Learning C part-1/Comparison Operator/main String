@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main() {
+    char f[]="apple";
+    printf("%d\n", f == "apple");
+    printf("%d\n", f != "apple");
+    printf("%d\n", f < "banana");
+    return 0;
+}
