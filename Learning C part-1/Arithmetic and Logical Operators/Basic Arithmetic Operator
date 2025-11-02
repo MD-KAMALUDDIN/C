@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+    int add, sub, mul;
+    float divi;
+    int integer_div;
+    add = 5+3;
+    printf("%d\n",add);
+    sub = 5-3;
+    printf("%d\n",sub);
+    mul = 5*3;
+    printf("%d\n",mul);
+    divi = 5.0/3;
+    printf("%f\n",divi);
+    integer_div = 5/3;
+    printf("%d\n",integer_div);
+    return 0;
+}
