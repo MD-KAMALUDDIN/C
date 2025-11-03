@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <stdbool.h>
+
+int main() {
+    const char *bool_str[] = {"False", "True"};
+
+    
+    printf("%s\n", bool_str[false && false]);
+    printf("%s\n", bool_str[false && true]);
+    printf("%s\n", bool_str[true && false]);
+    printf("%s\n", bool_str[true && true]);
+    printf("\n");
+
+    
+    printf("%s\n", bool_str[false || false]);
+    printf("%s\n", bool_str[false || true]);
+    printf("%s\n", bool_str[true || false]);
+    printf("%s\n", bool_str[true || true]);
+    printf("\n");
+    
+    printf("%s\n", bool_str[!false]);
+    printf("%s\n", bool_str[!true]);
+    printf("\n");
+    
+    return 0;
+}
