@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+    int a=2,b=4;
+    float a_p=3.4,b_p=4.5,a_t;
+    a_t = a*a_p;
+    printf("Total Price:%f\n",a_t);
+    a_t += b*b_p;
+    printf("Total Price:%f",a_t);
+    return 0;
+}
