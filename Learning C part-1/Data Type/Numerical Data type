@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main() {
+    int a=4;
+    float b=4.5;
+    double d=23.344;
+    printf("Integer value:%d\nFloat value:%f\nDouble value:%lf",a,b,d);
+    return 0;
+}
