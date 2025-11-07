@@ -1,0 +1,8 @@
+#include <stdio.h>
+
+int main() {
+    char c='e';
+    char s[]="Hello";
+    printf(" Single character:%c\n Multiple character or String:%s",c,s);
+    return 0;
+}
