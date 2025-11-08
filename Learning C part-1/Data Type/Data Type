@@ -7,7 +7,7 @@ int main() {
     char c='e';
     double d=23.344;
     char s[]="Hello";
-    bool g="False";
+    bool g="false";
     int *h=NULL;
     char *u=NULL;
     return 0;
