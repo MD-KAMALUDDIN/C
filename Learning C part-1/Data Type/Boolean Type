@@ -1,0 +1,10 @@
+#include <stdio.h>
+#include <stdbool.h>
+
+int main(void) {
+    int a = 0;
+    const bool b = (a != 0);
+    const char *bool_str[] = {"false", "true"};
+    printf("%s\n", bool_str[b]);
+    return 0;
+}
