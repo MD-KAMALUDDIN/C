@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main(void) {
+    int *basket = NULL;
+    printf("basket is NULL? %s\n", basket == NULL ? "true" : "false");
+    int x =33;
+    basket = &x;
+    printf("basket is NULL? %s\n", basket == NULL ? "true" : "false");
+    return 0;
+}
