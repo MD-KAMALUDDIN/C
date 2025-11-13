@@ -1,0 +1,10 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    int n=5,r;
+    char t[]="10";
+    r = n + atoi(t);
+    printf("%d",r);
+    return 0;
+}
