@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main() {
+    int t=10;
+    float r;
+    r = (float)t;
+    printf("%f",r);
+    return 0;
+}
